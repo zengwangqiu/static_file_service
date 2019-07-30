@@ -1,0 +1,17 @@
+{
+  "name": "static_file_service",
+  "version": "1.0.0",
+  "description": "静态文件服务",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/zwq_Vince/static_file_service.git"
+  },
+  "author": "zwq",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

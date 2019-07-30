@@ -1,0 +1,11 @@
+apps:
+  - script   : start.js
+    cwd    : .
+    name   : staticFile
+    watch  : true
+    # node_args : ['--inspect=0.0.0.0:5858']
+    ignore_watch: ['node_modules','public']
+    env    :
+      NODE_ENV: dev
+    env_production:
+      NODE_ENV: production
